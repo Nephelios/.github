@@ -19,7 +19,7 @@ Nephelios is a modern PaaS that automates the deployment, scaling, and managemen
 
 Our platform currently consists of two main components:
 
-### [nephelios](https://github.com/yourusername/nephelios)
+### [nephelios](https://github.com/Nephelios/nephelios)
 The core platform that contains:
 - RESTful API service
 - Application deployment handling
@@ -28,7 +28,7 @@ The core platform that contains:
 - Platform metrics
 - Container orchestration
 
-### [nephelios-cli](https://github.com/yourusername/nephelios-cli)
+### [nephelios-cli](https://github.com/Nephelios/nephelios-cli)
 Command-line interface for:
 - Deploying applications
 - Managing resources
