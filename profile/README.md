@@ -81,7 +81,7 @@ Nephelios is currently in active development. Here's what's ready:
 ✅ Basic API functionality  
 ✅ Web interface  
 ✅ Monitoring and logging   
-✅ Auto-scaling 
+✅ Auto-scaling  
 🚧 CLI Tool (deprecated, needs and update)  
 
 
