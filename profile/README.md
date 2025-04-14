@@ -12,7 +12,7 @@ Nephelios is a modern PaaS that automates the deployment, scaling, and managemen
 - 🔄 Automatic scaling and load balancing
 - 💻 Support for multiple programming languages and frameworks
 - 🔧 Built-in monitoring and logging
-- 🛠️ Developer-friendly CLI tools
+- 🛠️ Developer-friendly web interface
 - 🔐 Secure by default
 
 ## Repository Structure
@@ -28,13 +28,11 @@ The core platform that contains:
 - Platform metrics
 - Container orchestration
 
-### [nephelios-cli](https://github.com/Nephelios/nephelios-cli)
+### [nephelios-front](https://github.com/Nephelios/nephelios-front)
 Command-line interface for:
 - Deploying applications
 - Managing resources
 - Monitoring deployments
-- Accessing logs
-- Managing configuration
 
 ## Getting Started
 
@@ -47,14 +45,9 @@ cd nephelios
 # Follow setup instructions in repository README
 ```
 
-2. Install the CLI:
+2. Run the docker compose:
 ```bash
-cargo install nephelios-cli
-```
-
-3. Deploy your first application:
-```bash
-nephelios-cli create --name my-app --type nodejs --github-url https://github.com/user/repo
+docker compose up
 ```
 
 ## Contributing
@@ -86,11 +79,11 @@ Join our community and get involved with Nephelios development:
 Nephelios is currently in active development. Here's what's ready:
 
 ✅ Basic API functionality  
-✅ CLI tool  
-🚧 Advanced deployment features (in progress)  
-🚧 Monitoring and logging (in progress)  
-📅 Auto-scaling (planned)  
-📅 Multi-region support (planned)
+✅ Web interface  
+✅ Monitoring and logging   
+✅ Auto-scaling 
+🚧 CLI Tool (deprecated, needs and update)  
+
 
 ## License
 
@@ -99,7 +92,6 @@ All Nephelios repositories are licensed under the MIT License - see the individu
 ## Contact
 
 - GitHub Issues: Please use the appropriate repository for bug reports and feature requests
-- Security issues: security@nephelios.io
 
 ---
 
